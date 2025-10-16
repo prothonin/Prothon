@@ -62,7 +62,7 @@ const AppsSection = () => {
                     className="group bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_30px_hsl(270_80%_60%/0.5)] transition-all duration-500"
                     asChild
                   >
-                    <a href="/Astrology.apk" download="ProAiAstrologer.apk">
+                    <a href="/Prothon/Astrology.apk" download="ProAiAstrologer.apk">
                       <Download className="mr-2 w-5 h-5 group-hover:animate-bounce" />
                       Download APK
                     </a>
