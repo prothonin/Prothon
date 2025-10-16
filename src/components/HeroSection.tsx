@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -42,10 +43,10 @@ const HeroSection = () => {
             className="group bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_40px_hsl(270_80%_60%/0.5)] transition-all duration-500 text-lg px-8"
             asChild
           >
-            <a href="/apps">
+            <Link to="/apps">
               Explore Our Apps
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
           </Button>
           
           <Button 
