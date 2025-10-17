@@ -16,7 +16,7 @@ const socialLinks = [
     handle: "Prothon",
     description: "Subscribe for tutorials, demos, and tech insights",
     icon: Youtube,
-    url: "https://youtube.com/@devlpransh?si=OiMXRI3NyYneW1MN",
+    url: "https://youtube.com/@prothonai?si=Bl3Y8XZb6FxRl5aw",
     color: "from-red-500 to-red-600",
   },
   {
