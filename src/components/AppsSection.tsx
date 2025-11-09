@@ -66,7 +66,7 @@ const AppsSection = () => {
                     className="group bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_30px_hsl(270_80%_60%/0.5)] transition-all duration-500"
                     asChild
                   >
-                    <a href="/app-debug.apk" download="ProStore.apk">
+                    <a href="https://github.com/prothonin/Prothon/releases/download/v1.0/app-debug.apk">
                       <Download className="mr-2 w-5 h-5 group-hover:animate-bounce" />
                       Download APK
                     </a>
