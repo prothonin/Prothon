@@ -1,7 +1,7 @@
 import { Download, Star, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import prostoreIcon from "@/assets/prostore-icon.png";
+import prostoreIcon from "@/assets/1767584999670.jpg";
 
 const AppsSection = () => {
   return (
@@ -35,7 +35,7 @@ const AppsSection = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
                   <img
                     src={prostoreIcon}
-                    alt="Pro Store Icon"
+                    alt="Confess app icon"
                     className="relative w-32 h-32 rounded-3xl shadow-2xl ring-2 ring-primary/50"
                   />
                 </div>
@@ -43,11 +43,11 @@ const AppsSection = () => {
                 {/* App Info */}
                 <div className="flex-1 text-center md:text-left">
                   <h3 className="text-3xl font-bold mb-3 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text">
-                    Pro Store
+                    Confess
                   </h3>
 
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    Hey! Download our official Pro Store app and explore all apps from Prothone in one place.
+                    Hey! Download our official Confess app and confess anything you want.
                   </p>
 
                   <div className="flex items-center gap-4 mb-6 justify-center md:justify-start">
